@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Covid-19</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="list">
+        <item>Awareness quiz</item>
+        <item>Workout Stopwatch</item>
+    </string-array>
+
+
+
+    //Random Text to Show Implementation of ScrollView
+    <string name="bio">Hi, my name is Ritish.
+\n\nI love fish.
+\n\nThe kind that is alive and swims around in an aquarium or river, or a lake, and definitely the ocean.
+\nFun fact is that I have several aquariums and also a river.
+\n\nI like eating fish, too. Raw fish. Grilled fish. Smoked fish. Poached fish - not so much.
+\nAnd sometimes I even go fishing.
+\nAnd even less sometimes, I actually catch something.
+\n\nOnce, when I was camping in Canada, and very hungry, I even caught a large salmon with my hands.
+\n\nI\'ll be happy to teach you how to make your own aquarium.
+\nYou should ask someone else about fishing, though.\n\n
+    \n\nI love fish.
+\n\nThe kind that is alive and swims around in an aquarium or river, or a lake, and definitely the ocean.
+\nFun fact is that I have several aquariums and also a river.
+\n\nI like eating fish, too. Raw fish. Grilled fish. Smoked fish. Poached fish - not so much.
+\nAnd sometimes I even go fishing.
+\nAnd even less sometimes, I actually catch something.
+\n\nOnce, when I was camping in Canada, and very hungry, I even caught a large salmon with my hands.
+\n\nI\'ll be happy to teach you how to make your own aquarium.
+\nYou should ask someone else about fishing, though.\n\n
+    \n\nI love fish.
+\n\nThe kind that is alive and swims around in an aquarium or river, or a lake, and definitely the ocean.
+\nFun fact is that I have several aquariums and also a river.
+\n\nI like eating fish, too. Raw fish. Grilled fish. Smoked fish. Poached fish - not so much.
+\nAnd sometimes I even go fishing.
+\nAnd even less sometimes, I actually catch something.
+\n\nOnce, when I was camping in Canada, and very hungry, I even caught a large salmon with my hands.
+\n\nI\'ll be happy to teach you how to make your own aquarium.
+\nYou should ask someone else about fishing, though.\n\n</string>
+</resources>

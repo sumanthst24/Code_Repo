@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.covid_19.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_workoutStopwatch"
+            app:destination="@id/workoutStopwatch" />
+        <action
+            android:id="@+id/action_mainFragment_to_aboutMe"
+            app:destination="@id/aboutMe" />
+    </fragment>
+    <fragment
+        android:id="@+id/workoutStopwatch"
+        android:name="com.example.covid_19.WorkoutStopwatch"
+        android:label="WorkoutStopwatch" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.covid_19.GameFragment"
+        android:label="GameFragment" >
+        <action
+            android:id="@+id/action_gameFragment_to_scoreFragment"
+            app:destination="@id/scoreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scoreFragment"
+        android:name="com.example.covid_19.ScoreFragment"
+        android:label="ScoreFragment" />
+    <fragment
+        android:id="@+id/aboutMe"
+        android:name="com.example.covid_19.AboutMe"
+        android:label="AboutMe" />
+</navigation>
