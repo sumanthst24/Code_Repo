@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BasicTemplate</string>
+    <string name="start">START</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="quit">QUIT</string>
+    <string name="game">COWS &amp; BULLS</string>
+    <string name="Guess">Guess the output:</string>
+    <string name="InstructionsPage">Bulls and Cows is a 2 player game. One player thinks of a number, while the other player tries to guess it. The number to be guessed must be a 4 digit number, using only digits from 1 - 9, each digit atmost once.
+    For every guess that the player makes, he gets 2 values - the number of bulls and the number of cows. 1 bull means the guess contains and the target number have 1 digit in common, and in the correct position. 1 cow means the guess and the target have 1 digit in common, but not in correct position.
+    You should correctly guess the entire number.</string>
+</resources>

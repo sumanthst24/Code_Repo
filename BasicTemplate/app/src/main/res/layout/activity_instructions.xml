@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstructionsActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_margin="@dimen/space"
+        android:padding="@dimen/space"
+        android:text="@string/InstructionsPage"
+        android:textSize="20dp"
+        android:background="@drawable/background"
+        />
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="@dimen/space"
+        android:background="@drawable/rect"
+        android:textColor="#ffffff"
+        android:text="@string/start"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+</LinearLayout>
